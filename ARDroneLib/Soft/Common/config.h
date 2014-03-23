@@ -86,16 +86,17 @@
 
 #define WIFI_PASSKEY            "9F1C3EE11CBA230B27BF1C1B6F"
 
-#define FTP_PORT				5551
-#define AUTH_PORT				5552
-#define VIDEO_RECORDER_PORT     5553
-#define NAVDATA_PORT            5554
-#define VIDEO_PORT              5555
-#define AT_PORT                 5556
-#define RAW_CAPTURE_PORT        5557
-#define PRINTF_PORT             5558
-#define CONTROL_PORT            5559
-
+// Replace constants with variables (see ../Lib/ardrone_tool/ardrone_tool.*)
+// Using unconvential all-caps to minimize impact on rest of code
+extern unsigned short FTP_PORT;
+extern unsigned short AUTH_PORT;
+extern unsigned short VIDEO_RECORDER_PORT;
+extern unsigned short NAVDATA_PORT;
+extern unsigned short VIDEO_PORT;
+extern unsigned short AT_PORT;
+extern unsigned short RAW_CAPTURE_PORT;
+extern unsigned short PRINTF_PORT;
+extern unsigned short CONTROL_PORT;
 ///////////////////////////////////////////////
 // Wired configuration
 
