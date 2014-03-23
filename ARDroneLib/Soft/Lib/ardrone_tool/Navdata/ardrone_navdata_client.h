@@ -3,6 +3,7 @@
 
 #include <VP_Os/vp_os_types.h>
 #include <VP_Api/vp_api_thread_helper.h>
+#include <VP_Com/vp_com.h>
 
 #include <ardrone_api.h>
 #include <ardrone_tool/Control/ardrone_navdata_control.h>
