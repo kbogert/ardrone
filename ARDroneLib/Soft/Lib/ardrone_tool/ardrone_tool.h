@@ -72,6 +72,19 @@ void ardrone_tool_send_com_watchdog(void); // To send it only once
 void api_configuration_get_ctrl_mode(void);
 void api_configuration_ack_ctrl_mode(void);
 
+
+// Provide port setter functions for application
+void set_FTP_PORT(uint16_t p);
+void set_AUTH_PORT(uint16_t p);
+void set_VIDEO_RECORDER_PORT(uint16_t p);
+void set_NAVDATA_PORT(uint16_t p);
+void set_VIDEO_PORT(uint16_t p);
+void set_AT_PORT(uint16_t p);
+void set_RAW_CAPTURE_PORT(uint16_t p);
+void set_PRINTF_PORT(uint16_t p);
+void set_CONTROL_PORT(uint16_t p);
+
+
 /*! \page page2
  * @defgroup ARDrone_Tool ARDrone_Tool
 
