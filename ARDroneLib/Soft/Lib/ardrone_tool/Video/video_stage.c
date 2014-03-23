@@ -37,7 +37,6 @@ static vp_os_mutex_t video_stage_mutex;
 
 
 static video_com_config_t icc_tcp;
-static video_com_config_t icc_udp;
 video_com_multisocket_config_t icc;
 static video_com_config_t* icc_tab[2];
 

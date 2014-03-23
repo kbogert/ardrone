@@ -25,7 +25,6 @@ static uint32_t num_retries = 0;
 static vp_os_cond_t navdata_client_condition;
 static vp_os_mutex_t navdata_client_mutex;
 
-static vp_com_socket_t navdata_socket;
 static Read navdata_read      = NULL;
 static Write navdata_write    = NULL;
 
