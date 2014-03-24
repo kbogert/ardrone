@@ -43,6 +43,9 @@ static video_com_config_t* icc_tab[2];
 
 static video_stage_tcp_config_t tcpConf;
 
+video_com_config_t * get_icc_udp() {
+	return &icc_udp;
+}
 
 video_decoder_config_t vec;
 

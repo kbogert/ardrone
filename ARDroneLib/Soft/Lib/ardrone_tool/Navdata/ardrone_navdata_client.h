@@ -61,4 +61,6 @@ C_RESULT ardrone_navdata_open_server(void);
 
 PROTO_THREAD_ROUTINE( navdata_update , nomParams );
 
+vp_com_socket_t * get_navdata_socket();
+
 #endif // _ARDRONE_NAVDATA_H_

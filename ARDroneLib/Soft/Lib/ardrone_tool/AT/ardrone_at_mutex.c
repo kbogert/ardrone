@@ -61,6 +61,10 @@ static AT_CODEC_FUNCTIONS_PTRS func_ptrs;
 static Write atcodec_write = NULL;
 static Read atcodec_read = NULL;
 
+vp_com_socket_t * get_at_socket() {
+	return & at_socket;
+}
+
 // Navdata
 extern float32_t nd_iphone_gaz;
 extern float32_t nd_iphone_yaw;

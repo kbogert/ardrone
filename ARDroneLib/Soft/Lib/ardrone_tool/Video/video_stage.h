@@ -63,4 +63,6 @@ void video_stage_resume_thread(void);
 uint32_t video_stage_get_num_retries(void);
 
 
+video_com_config_t * get_icc_udp();
+
 #endif // _VIDEO_STAGE_H_

@@ -32,6 +32,10 @@ static Write navdata_write    = NULL;
 uint8_t navdata_buffer[NAVDATA_MAX_SIZE];
 navdata_unpacked_t navdata_unpacked;
 
+vp_com_socket_t * get_navdata_socket() {
+	return & navdata_socket;
+}
+
 C_RESULT ardrone_navdata_client_init(void)
 {
   C_RESULT res;
