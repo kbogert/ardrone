@@ -79,6 +79,7 @@ void set_AUTH_PORT(uint16_t p);
 void set_VIDEO_RECORDER_PORT(uint16_t p);
 void set_NAVDATA_PORT(uint16_t p);
 void set_VIDEO_PORT(uint16_t p);
+void set_VIDEO_PORT_UDP(uint16_t p);
 void set_AT_PORT(uint16_t p);
 void set_RAW_CAPTURE_PORT(uint16_t p);
 void set_PRINTF_PORT(uint16_t p);

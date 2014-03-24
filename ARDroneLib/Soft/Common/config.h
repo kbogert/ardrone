@@ -93,6 +93,7 @@ extern unsigned short AUTH_PORT;
 extern unsigned short VIDEO_RECORDER_PORT;
 extern unsigned short NAVDATA_PORT;
 extern unsigned short VIDEO_PORT;
+extern unsigned short VIDEO_PORT_UDP;
 extern unsigned short AT_PORT;
 extern unsigned short RAW_CAPTURE_PORT;
 extern unsigned short PRINTF_PORT;

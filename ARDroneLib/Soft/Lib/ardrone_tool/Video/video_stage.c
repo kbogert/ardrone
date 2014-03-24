@@ -99,7 +99,7 @@ DEFINE_THREAD_ROUTINE(video_stage, data) {
     icc_udp.com = COM_VIDEO();
     icc_udp.buffer_size = (1024*1024);
     icc_udp.protocol = VP_COM_UDP;
-    COM_CONFIG_SOCKET_VIDEO(&icc_udp.socket, VP_COM_CLIENT, VIDEO_PORT, wifi_ardrone_ip);
+    COM_CONFIG_SOCKET_VIDEO(&icc_udp.socket, VP_COM_CLIENT, VIDEO_PORT_UDP, wifi_ardrone_ip);
 
     icc.nb_sockets = 2;
     icc.configs = icc_tab;
