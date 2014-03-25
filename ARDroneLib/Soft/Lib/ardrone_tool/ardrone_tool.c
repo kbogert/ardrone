@@ -418,7 +418,6 @@ int ardrone_tool_main(int argc, char **argv)
   }
 
   return SUCCEED(res) ? 0 : -1;
- 
 }
 
 // Set default ports for variables that replace old constants
@@ -427,7 +426,6 @@ unsigned short AUTH_PORT                = 5552;
 unsigned short VIDEO_RECORDER_PORT      = 5553;
 unsigned short NAVDATA_PORT             = 5554;
 unsigned short VIDEO_PORT               = 5555;
-unsigned short VIDEO_PORT_UDP           = 5555;
 unsigned short AT_PORT                  = 5556;
 unsigned short RAW_CAPTURE_PORT         = 5557;
 unsigned short PRINTF_PORT              = 5558;
@@ -439,7 +437,6 @@ void set_AUTH_PORT(uint16_t p) { AUTH_PORT = p; }
 void set_VIDEO_RECORDER_PORT(uint16_t p) { VIDEO_RECORDER_PORT = p; }
 void set_NAVDATA_PORT(uint16_t p) { NAVDATA_PORT = p; }
 void set_VIDEO_PORT(uint16_t p) { VIDEO_PORT = p; }
-void set_VIDEO_PORT_UDP(uint16_t p) { VIDEO_PORT_UDP = p; }
 void set_AT_PORT(uint16_t p) { AT_PORT = p; }
 void set_RAW_CAPTURE_PORT(uint16_t p) { RAW_CAPTURE_PORT = p; }
 void set_PRINTF_PORT(uint16_t p) { PRINTF_PORT = p; }
